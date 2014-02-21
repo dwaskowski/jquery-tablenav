@@ -1,7 +1,8 @@
 jQuery-TableNav
 =================
 
-A jQuery utility plugin providing navigation with arrow keys in a table
+A jQuery utility plugin providing navigation with arrow keys in a table with
+input fields.
 
 ##Why this plugin?
 

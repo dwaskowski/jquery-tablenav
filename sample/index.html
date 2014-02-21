@@ -12,18 +12,18 @@
         <title>jQuery TableNav plugin sample</title>
         <link rel="stylesheet" href="sample.css">   
         <script src="../libs/jquery/jquery.js"></script>
-        <script src="../dist/jquery.tablenav.js"></script>
+        <script src="../dist/jquery.tablenav.min.js"></script>
         <script src="sample.js"></script>
     </head>
     <body>
         <div class="contentwrapper">
             <h1>jQuery TableNav plugin sample</h1>
-            <p>How does it work? ...
-            </p>
+            <p>How does it work? Simply use the arrow keys on your keyboard to navigate the cells in the table in an Excel-like way.</p>
             <hr>
             <table id="my-table">
                 <thead>
                     <tr>
+                        <th></th>
                         <th>A</th>
                         <th>B</th>
                         <th>C</th>
@@ -37,99 +37,119 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
+                        <td><input type="text" value="1" disabled /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="446" /></td>
+                        <td><input type="text" value="24" /></td>
+                        <td><input type="text" value="75" /></td>
+                        <td><input type="text" value="536" /></td>
+                        <td><input type="text" value="567" /></td>
+                        <td><input type="text" value="234" /></td>
+                        <td><input type="text" value="90" /></td>
                     </tr>
                     <tr>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
+                        <td><input type="text" value="2" disabled /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="536" /></td>
+                        <td><input type="text" value="214" /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="234" /></td>
+                        <td><input type="text" value="55" /></td>
                     </tr>
                     <tr>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
+                        <td><input type="text" value="3" disabled /></td>
+                        <td><input type="text" value="567" /></td>
+                        <td><input type="text" value="33" /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="234" /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="231" /></td>
+                        <td><input type="text" value="834" /></td>
                     </tr>
                     <tr>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
+                        <td><input type="text" value="4" disabled /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="234" /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="567" /></td>
+                        <td><input type="text" value="33" /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="55" /></td>
                     </tr>
                     <tr>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
+                        <td><input type="text" value="5" disabled /></td>
+                        <td><input type="text" value="75" /></td>
+                        <td><input type="text" value="536" /></td>
+                        <td><input type="text" value="567" /></td>
+                        <td><input type="text" value="467" /></td>
+                        <td><input type="text" value="33" /></td>
+                        <td><input type="text" value="75" /></td>
+                        <td><input type="text" value="536" /></td>
+                        <td><input type="text" value="567" /></td>
                     </tr>
                     <tr>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
+                        <td><input type="text" value="6" disabled /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="446" /></td>
+                        <td><input type="text" value="24" /></td>
+                        <td><input type="text" value="75" /></td>
+                        <td><input type="text" value="536" /></td>
+                        <td><input type="text" value="567" /></td>
+                        <td><input type="text" value="234" /></td>
+                        <td><input type="text" value="90" /></td>
                     </tr>
                     <tr>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
+                        <td><input type="text" value="7" disabled /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="536" /></td>
+                        <td><input type="text" value="214" /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="234" /></td>
+                        <td><input type="text" value="55" /></td>
                     </tr>
                     <tr>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
+                        <td><input type="text" value="8" disabled /></td>
+                        <td><input type="text" value="567" /></td>
+                        <td><input type="text" value="33" /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="234" /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="231" /></td>
+                        <td><input type="text" value="834" /></td>
                     </tr>
                     <tr>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
-                        <td><input/></td>
+                        <td><input type="text" value="9" disabled /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="234" /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="567" /></td>
+                        <td><input type="text" value="33" /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="55" /></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" value="10" disabled /></td>
+                        <td><input type="text" value="75" /></td>
+                        <td><input type="text" value="536" /></td>
+                        <td><input type="text" value="567" /></td>
+                        <td><input type="text" value="33" /></td>
+                        <td><input type="text" value="55" /></td>
+                        <td><input type="text" value="75" /></td>
+                        <td><input type="text" value="536" /></td>
+                        <td><input type="text" value="567" /></td>
                     </tr>
 
                     
                 </tbody>
-            </table>
+            </table>            
             <hr>
             <p>
                 <a href="http://www.invetek.nl">Invetek - Loran Kloeze</a> | <a href="https://github.com/invetek/jquery-tablenav">https://github.com/invetek/jquery-tablenav</a>

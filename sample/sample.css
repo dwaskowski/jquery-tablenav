@@ -2,7 +2,7 @@
  * jQuery TableNav Plugin Sample
  * https://github.com/invetek/jquery-tablenav
  *
- * Copyright 2013 Loran Kloeze - Invetek
+ * Copyright 2014 Loran Kloeze - Invetek
  * Released under the MIT license
  */
 
@@ -33,6 +33,10 @@ table thead td {
 
 table tbody td {
     padding: 3px;
+}
+
+table tbody td:first-child {
+    width: 50px;
 }
 
 table input {

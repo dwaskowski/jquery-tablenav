@@ -19,7 +19,7 @@ module.exports = function(grunt) {
     coffee: {
       compile: {
         files: {
-          'src/tablenav.jquery.js': 'src/tablenav.jquery.coffee'
+          'src/tablenav.js': 'src/tablenav.coffee'
         }
       }
     },
@@ -31,10 +31,6 @@ module.exports = function(grunt) {
       dist: {
         src: ['src/<%= pkg.name %>.js'],
         dest: 'dist/jquery.<%= pkg.name %>.js'
-      },
-      css: {
-        src: ['src/css/<%= pkg.name %>.css'],
-        dest: 'dist/css/jquery.<%= pkg.name %>.css'
       }
     },
     uglify: {

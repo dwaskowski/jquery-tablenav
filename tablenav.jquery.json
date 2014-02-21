@@ -1,0 +1,28 @@
+{
+  "name": "tablenav",
+  "title": "jQuery tableNav",
+  "description": "jQuery utility plugin providing navigation with arrow keys in a table",
+  "version": "0.1.0",
+  "homepage": "http://www.invetek.nl/?p=120",
+  "docs": "https://github.com/invetek/jquery-tablenav",
+  "author": {
+    "name": "Loran Kloeze | Invetek",
+    "email": "loran@invetek.nl",
+    "url": "http://www.invetek.nl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/invetek/jquery-tablenav.git"
+  },
+  "bugs": "https://github.com/invetek/jquery-tablenav/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "1.9.0"
+  },
+  "keywords": ["input","table","navigation","keys","arrowkeys"]
+}

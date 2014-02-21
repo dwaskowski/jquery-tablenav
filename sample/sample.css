@@ -1,0 +1,41 @@
+/*!
+ * jQuery TableNav Plugin Sample
+ * https://github.com/invetek/jquery-tablenav
+ *
+ * Copyright 2013 Loran Kloeze - Invetek
+ * Released under the MIT license
+ */
+
+body {
+    font-family: verdana;
+    padding: 0;       
+    font-size: 11px;
+}
+
+hr {
+    border-top: solid 1px black;
+    border-bottom: none;
+    margin: 10px 0 25px 0;
+}
+
+.contentwrapper {
+    margin: 50px 0 0 200px;
+    width: 800px;
+}
+
+table {
+    width: 100%;
+}
+
+table thead td {
+    text-align: center;
+}
+
+table tbody td {
+    padding: 3px;
+}
+
+table input {
+    width: 100%;
+}
+

@@ -1,7 +1,7 @@
 jQuery-TableNav
 =================
 
-A jQuery utility plugin providing navigation with arrow keys in a table with
+A jQuery plugin providing navigation with arrow keys in a table with
 input fields.
 
 It's created with Coffeescript since it's fun and efficient to work with!
